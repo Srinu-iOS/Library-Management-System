@@ -1,0 +1,27 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'LibraryManagementSystem' do
+  source 'https://github.com/CocoaPods/Specs.git'
+  # Comment the next line if you don't want to use dynamic frameworks
+  platform :ios, '10.0'
+  use_frameworks!
+  inhibit_all_warnings!
+  # Pods for LibraryManagementSystem
+  pod 'Alamofire'
+  pod "KRActivityIndicatorView"
+  pod 'Toast-Swift'
+  pod 'NVActivityIndicatorView'
+  pod 'IQKeyboardManagerSwift'
+  pod 'Charts'
+
+  target 'LibraryManagementSystemTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'LibraryManagementSystemUITests' do
+    # Pods for testing
+  end
+
+end

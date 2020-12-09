@@ -1,0 +1,6 @@
+framework module Pods_LibraryManagementSystemTests {
+  umbrella header "Pods-LibraryManagementSystemTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
